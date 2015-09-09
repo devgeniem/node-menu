@@ -1,11 +1,23 @@
 node-menu
 =========
 
+Forked by Geniem. 
+
+Changes:
+- No header
+- Reset menu
+- change prompt
+ 
+
 This module allows to create console menu for your REPL application. It allows you to register menu items with their handlers. Optionally you may provide handler's owner object and list of arguments being passed to handler.
 
 ## Installation
 
-    npm install node-menu
+    add to main project package.json
+
+  "dependencies": {
+    "node-menu": "https://github.com/node-menu/express/tarball/master"
+  }
 
 ## Methods
 
